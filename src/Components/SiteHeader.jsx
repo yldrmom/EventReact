@@ -15,7 +15,9 @@ useEffect(() => {
 
   return <>
    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <a className="navbar-brand" href="#">Event App</a>
+  <Link to ={'/'}>
+  <a className="navbar-brand">Event App</a>
+  </Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span clclassNameass="navbar-toggler-icon"></span>
   </button>
